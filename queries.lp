@@ -45,7 +45,7 @@ mg.include('scripts/lua/header_authenticated.lp','r')
 
 <div class="row">
     <div class="col-md-12">
-        <div class="box box-warning collapsed-box box-solid">
+        <div class="box box-primary collapsed-box box-solid">
             <div class="box-header with-border">
                 <button type="button" class="btn btn-box-tool btn-block" data-widget="collapse">
                     <h3 class="box-title pull-left">Advanced filtering</h3>
@@ -154,7 +154,7 @@ mg.include('scripts/lua/header_authenticated.lp','r')
                 <h3 class="box-title">Recent Queries</h3>
                 <div class="pull-right align-click-options">
                     <span><input type="checkbox" id="live"><label for="live">Live update</label></span>
-                    <a id="refresh" href="#" class="btn btn-sm btn-info btn-flat">Refresh</a>
+                    <a id="refresh" href="#" class="btn btn-sm btn-default btn-flat">Refresh</a>
                 </div>
             </div>
             <!-- /.box-header -->

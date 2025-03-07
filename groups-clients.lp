@@ -60,7 +60,7 @@ mg.include('scripts/lua/header_authenticated.lp','r')
                 </div>
             </div>
             <div class="box-footer clearfix">
-                <button type="button" id="btnAdd" class="btn btn-primary pull-right">Add</button>
+                <button type="button" id="btnAdd" class="btn btn-default pull-right">Add</button>
             </div>
         </div>
     </div>

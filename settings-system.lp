@@ -293,14 +293,14 @@ mg.include('scripts/lua/settings_header.lp','r')
         </div>
     </div>
     <div class="col-md-12 settings-level-expert">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title">Actions<span id="actions-title"></span></h3>
             </div>
             <div class="box-body">
                 <div class="row">
                     <div class="col-xs-12 col-md-6 col-lg-3">
-                        <button type="button" id="loggingButton" class="btn btn-block button-pad btn-primary"><i class="fa fa-spinner fa-pulse"></i></button>
+                        <button type="button" id="loggingButton" class="btn btn-block button-pad btn-default"><i class="fa fa-spinner fa-pulse"></i></button>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-3">
                         <button type="button" class="btn btn-warning confirm-restartdns btn-block button-pad destructive_action" disabled="true">Restart DNS resolver</button>

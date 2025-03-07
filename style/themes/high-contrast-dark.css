@@ -233,8 +233,7 @@ h4 {
 .box-header.with-border {
   border-bottom: 1px solid #3c4652;
 }
-.box-solid,
-.box {
+.box-solid {
   border: 1px solid #202830;
 }
 
@@ -792,7 +791,7 @@ input[type="password"]::-webkit-caps-lock-indicator {
 .box .overlay,
 .overlay-wrapper .overlay {
   z-index: 50;
-  background-color: rgba(53, 60, 66, 0.733);
+  background-color: rgba(102, 4, 4, 0.733);
   border-radius: 3px;
 }
 .box .overlay > .fa,
