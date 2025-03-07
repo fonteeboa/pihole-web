@@ -44,7 +44,7 @@ mg.include('scripts/lua/header_authenticated.lp','r')
                     <li>Multiple groups can be added by separating each group name with a space or comma</li>
                     <li>Group names can have spaces if entered in quotes. e.g "My New Group"</li>
                 </ol>
-                <button type="button" id="btnAdd" class="btn btn-primary pull-right">Add</button>
+                <button type="button" id="btnAdd" class="btn btn-default pull-right">Add</button>
             </div>
         </div>
     </div>

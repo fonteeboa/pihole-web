@@ -15,7 +15,7 @@ mg.include('scripts/lua/settings_header.lp','r')
 ?>
 <div class="row">
     <div class="col-md-6 settings-level-basic">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title" data-configkeys="webserver.interface.theme webserver.interface.boxed">Theme settings</h3>
             </div>
@@ -50,7 +50,7 @@ mg.include('scripts/lua/settings_header.lp','r')
     </div>
 
     <div class="col-md-6 settings-level-expert">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title" data-configkeys="webserver.api.prettyJSON webserver.api.allow_destructive">Advanced Settings</h3>
             </div>
@@ -83,7 +83,7 @@ mg.include('scripts/lua/settings_header.lp','r')
 
 <div class="row">
         <div class="col-md-12 settings-level-expert">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title" data-configkeys="webserver.api.excludeDomains webserver.api.excludeClients">Exclusions</h3>
             </div>
@@ -111,7 +111,7 @@ mg.include('scripts/lua/settings_header.lp','r')
 
     <!-- TODO: Why is this commented out?
     <div class="col-md-6">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title">Query Log</h3>
             </div>
@@ -135,7 +135,7 @@ mg.include('scripts/lua/settings_header.lp','r')
     </div>-->
 
     <div class="col-md-12 settings-level-expert">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title">Currently active sessions</h3>
             </div>
@@ -167,7 +167,7 @@ mg.include('scripts/lua/settings_header.lp','r')
         </div>
     </div>
     <div class="col-lg-12 settings-level-basic save-button-container">
-        <button type="button" class="btn btn-primary save-button"><i class="fa-solid fa-fw fa-floppy-disk"></i>&nbsp;Save & Apply</button>
+        <button type="button" class="btn btn-default save-button"><i class="fa-solid fa-fw fa-floppy-disk"></i>&nbsp;Save & Apply</button>
     </div>
 </div>
 

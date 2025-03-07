@@ -15,7 +15,7 @@ mg.include('scripts/lua/settings_header.lp','r')
 ?>
 <div class="row">
     <div class="col-lg-6">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h1 class="box-title" data-configkeys="dns.upstreams" id="lblDNSupstreams">Upstream DNS Servers</h1>
             </div>
@@ -57,7 +57,7 @@ mg.include('scripts/lua/settings_header.lp','r')
                 </div>
             </div>
         </div>
-        <div class="box box-warning settings-level-expert">
+        <div class="box box-primary settings-level-expert">
             <div class="box-header with-border">
                 <h3 class="box-title" data-configkeys="dns.domain dns.expandHosts">DNS domain settings</h3>
             </div>
@@ -81,7 +81,7 @@ mg.include('scripts/lua/settings_header.lp','r')
                 </div>
             </div>
         </div>
-        <div class="box box-warning settings-level-expert">
+        <div class="box box-primary settings-level-expert">
             <div class="box-header with-border">
                 <h3 class="box-title" data-configkeys="dns.rateLimit.count dns.rateLimit.interval">Rate-limiting</h3>
             </div>
@@ -107,7 +107,7 @@ mg.include('scripts/lua/settings_header.lp','r')
         </div>
     </div>
     <div class="col-lg-6 settings-level-expert">
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h1 class="box-title" data-configkeys="dns.listeningMode">Interface settings</h1>
             </div>
@@ -149,7 +149,7 @@ mg.include('scripts/lua/settings_header.lp','r')
                 </div>
             </div>
         </div>
-        <div class="box box-warning">
+        <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title" data-configkeys="dns.domainNeeded dns.bogusPriv dns.dnssec">Advanced DNS settings</h3>
             </div>
@@ -197,7 +197,7 @@ mg.include('scripts/lua/settings_header.lp','r')
         </div>
     </div>
     <div class="col-lg-12">
-        <div class="box box-warning settings-level-expert">
+        <div class="box box-primary settings-level-expert">
             <div class="box-header with-border">
                 <h3 class="box-title" data-configkeys="dns.revServers">Conditional forwarding</h3>
             </div>
@@ -235,7 +235,7 @@ mg.include('scripts/lua/settings_header.lp','r')
         </div>
     </div>
     <div class="col-lg-12 settings-level-basic save-button-container">
-        <button type="button" class="btn btn-primary save-button"><i class="fa-solid fa-fw fa-floppy-disk"></i>&nbsp;Save & Apply</button>
+        <button type="button" class="btn btn-default save-button"><i class="fa-solid fa-fw fa-floppy-disk"></i>&nbsp;Save & Apply</button>
     </div>
 </div>
 <script src="<?=pihole.fileversion('vendor/bootstrap-toggle/bootstrap-toggle.min.js')?>"></script>
