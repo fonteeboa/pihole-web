@@ -5482,7 +5482,7 @@ link-muted {
 }
 .sidebar-toggle-svg:hover {
   color: rgb(226, 224, 220);
-  background-color: rgb(43, 102, 135);
+  background-color: #660404;
   background-image: none;
 }
 .main-header .navbar .nav > li > a,
